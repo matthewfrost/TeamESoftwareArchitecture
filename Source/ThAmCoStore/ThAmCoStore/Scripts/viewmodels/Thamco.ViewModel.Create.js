@@ -73,12 +73,11 @@
                 Debug = Debug || false
                 if (data == 200) {
                     if (!Debug) {
-                        window.open(document.domain + "/Home/Index", "_self");
+                        window.open("/Home", "_self");
                     }
                     Result = true;
                 }
                 else {
-                    //alert("something went wrong");
                     Result = false;
                 }
                 return Result;

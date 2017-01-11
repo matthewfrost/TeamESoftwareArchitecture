@@ -15,6 +15,10 @@
                 return self.Boxes().filter(function (item) { return item.Visible() == true });
             });
 
+            self.createBox = function () {
+                window.open('/CreateBox', '_self');
+            }
+
             self.getLoggedInUser = function () {
                 var Email;
 

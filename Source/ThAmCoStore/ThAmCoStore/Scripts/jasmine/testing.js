@@ -3,10 +3,6 @@ $(function () {
     var length;
 
     afterAll(function (done) {
-        //IndexViewModel = null;
-        //ViewModel = null;
-        //DetailsViewModel = null;
-        //CartViewModel = null;
         DetailsViewModel = new Thamco.ViewModel.Details();
         DetailsViewModel.GetBoxDetails(1, BoxSuccess);
 
@@ -25,6 +21,13 @@ $(function () {
             ID: 5
         });
     });
+    describe('Failure Index tests', function(){
+        beforeAll(function (done) {
+            IndexViewModel = new Thamco.ViewModel.Index();
+            Thamco.Controller.Box.Get(success, error)
+        });
+    });
+
     describe('Index tests', function () {
 
         beforeAll(function (done) {
