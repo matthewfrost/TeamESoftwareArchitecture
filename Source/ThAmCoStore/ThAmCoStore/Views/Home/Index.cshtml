@@ -2,6 +2,12 @@
     ViewBag.Title = "Home Page";
 
 }
+<!--ko if: $root.NetworkError()-->
+<div class="row">
+    <h2 class="col-xs-12">Oops something went wrong, try again...</h2>
+</div>
+<!--/ko-->
+<!--ko if: !$root.NetworkError()-->
 <div class="row">
     <span class="col-xs-1">search</span>
     <div class="col-xs-2">
@@ -28,6 +34,7 @@
         <td data-bind="click: $root.boxDetails"><button>Details</button></td>
     </tr>
 </table>
+<!--/ko-->
 
 
 

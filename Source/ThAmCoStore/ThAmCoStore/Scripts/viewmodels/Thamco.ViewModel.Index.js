@@ -10,6 +10,7 @@
             self.maxPrice = ko.observable("");
             self.LoggedIn = ko.observable(null);
             self.showHidden = ko.observable(true);
+            self.NetworkError = ko.observable(false);
             self.VisibleBoxes = ko.pureComputed(function () {
                 return self.Boxes().filter(function (item) { return item.Visible() == true });
             });
@@ -66,9 +67,10 @@
                 return self.searchedBoxes().filter(function (item) { return item.Price() <= max && item.Price() >= min });
             });
 
-            self.GetBoxes = function (callback) {
+            self.GetBoxes = function (callback, errorCallback) {
                 Thamco.Controller.Box.Get({
-                    success: callback
+                    success: callback,
+                    fail: errorCallback
                 });
             }
 
@@ -85,6 +87,10 @@
                     Box.Available(data[i].Available);
                     self.Boxes.push(Box);
                 }
+            }
+
+            self.GetBoxFail = function (status, jqxhr, error) {
+                self.NetworkError(true);
             }
 
             self.boxDetails = function (item, event) {

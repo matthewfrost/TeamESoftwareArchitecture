@@ -8,6 +8,7 @@
                     url: Thamco.Controller.Box.url,
                     type: 'GET',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json'
                 });
             },
@@ -17,6 +18,7 @@
                     url: Thamco.Controller.Box.url + '/' + options.ID,
                     type: 'GET',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json'
                 });
             },
@@ -27,6 +29,7 @@
                     url: Thamco.Controller.Box.url + '/' + options.ID,
                     type: 'POST',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json',
                     data: JSON.stringify(options.data)
                 });
@@ -37,6 +40,7 @@
                     url: Thamco.Controller.Box.url,
                     type: 'PUT',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json',
                     data: JSON.stringify(options.data)
                 });
@@ -47,6 +51,7 @@
                     url: Thamco.Controller.Box.url,
                     type: 'DELETE',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json',
                     data: JSON.stringify(options.ID)
                 });
