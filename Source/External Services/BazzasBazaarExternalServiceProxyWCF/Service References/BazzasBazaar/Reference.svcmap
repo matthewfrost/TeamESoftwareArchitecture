@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="295e36cb-fc0c-47d1-82cd-0249a9e5f71a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://bazzasbazaar.azurewebsites.net/Store.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Store.xsd" MetadataType="Schema" ID="561f6360-f9fe-42f7-9c0e-a6f3f0b2dc2a" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd1" />
+    <MetadataFile FileName="Store.disco" MetadataType="Disco" ID="82a9882f-b188-444c-9fd8-58147f49b242" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?disco" />
+    <MetadataFile FileName="Store.wsdl" MetadataType="Wsdl" ID="4aac0a96-5dd5-4a6f-a3f6-1e0612fd83c5" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?wsdl" />
+    <MetadataFile FileName="Store1.xsd" MetadataType="Schema" ID="903e9ddc-7874-4cd3-98f3-b400b139cecf" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd0" />
+    <MetadataFile FileName="Store2.xsd" MetadataType="Schema" ID="9134b147-4133-4cc2-ba7e-3b94b88709ec" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

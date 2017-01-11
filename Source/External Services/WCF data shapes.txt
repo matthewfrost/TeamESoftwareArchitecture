@@ -1,0 +1,49 @@
+WCF Service 
+Get All Categorys - int AvailableProductCount
+	   	    string Description
+	   	    int Id
+	   	    string Name
+
+Get Category By ID - int AvailableProductCount
+	   	     string Description
+	   	     int Id
+	   	     string Name
+
+Get Filtered Products - int CategoryID
+			string CategoryName
+			string Description
+			string Ean
+			(DateTime)? ExpectedRestock 
+			int Id
+			bool InStock
+			string Name
+			double PriceForOne
+			double PriceForTen
+
+Get Product By Id -     int CategoryID
+			string CategoryName
+			string Description
+			string Ean
+			(DateTime)? ExpectedRestock 
+			int Id
+			bool InStock
+			string Name
+			double PriceForOne
+			double PriceForTen
+
+Get Order By Id - 	string AccountName
+			string CardNumber
+			int Id
+			string ProductEan
+			int ProductId
+			string ProductName
+			int Quantity
+			double TotalPrice
+			DateTime When
+
+Create Order - string accountName
+		string cardNumber
+		int productId
+		int quantity
+
+Cancel Order By Id - int id

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c7a88a84-87c0-46b6-9f9c-260800a9fd84" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://bazzasbazaar.azurewebsites.net/Store.svc?singleWsd1l" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Store.xsd" MetadataType="Schema" ID="bc0ecaef-8c36-4a30-8886-90091b68f3e2" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd1" />
+    <MetadataFile FileName="Store.disco" MetadataType="Disco" ID="ff9bdf6a-0228-4fcd-b5a1-ff8faf00296b" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?disco" />
+    <MetadataFile FileName="Store.wsdl" MetadataType="Wsdl" ID="1b43233d-2a52-4514-832b-5be32ebe7c49" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?wsdl" />
+    <MetadataFile FileName="Store1.xsd" MetadataType="Schema" ID="9d3e3e2e-a279-43f3-a024-a5596a4d61f8" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd0" />
+    <MetadataFile FileName="Store2.xsd" MetadataType="Schema" ID="ba0bfaca-5518-4c73-976d-b99feb663e2b" SourceId="1" SourceUrl="http://bazzasbazaar.azurewebsites.net/Store.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
