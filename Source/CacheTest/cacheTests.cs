@@ -2,12 +2,15 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics.Stopwatch;
 
 namespace CacheTest
 {
     [TestClass]
     public class cacheTests
     {
+       
+
         [TestMethod]
         public void productsTest()
         {

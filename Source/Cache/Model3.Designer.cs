@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\mawat\Desktop\SoftwareArchitecture\ThAmCoStore\ConsoleApplication1\Model3.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\mawat\Desktop\TeamESoftwareArchitecture\Source\Cache\Model3.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
