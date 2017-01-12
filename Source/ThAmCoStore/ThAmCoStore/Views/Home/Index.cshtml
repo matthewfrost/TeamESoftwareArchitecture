@@ -2,17 +2,6 @@
     ViewBag.Title = "Home Page";
 
 }
-<!--ko if: $root.NetworkError()-->
-<div class="row">
-    <h2 class="col-xs-12">Oops something went wrong, try again...</h2>
-</div>
-<!--/ko-->
-<!--ko if: !$root.NetworkError()-->
-<!--ko if: $root.LoggedIn()-->
-<div class="row">
-    <button data-bind="click: $root.createBox" class="col-xs-2">Create Box</button>
-</div>
-<!--/ko-->
 <div class="row">
     <span class="col-xs-1">search</span>
     <div class="col-xs-2">
@@ -39,7 +28,6 @@
         <td data-bind="click: $root.boxDetails"><button>Details</button></td>
     </tr>
 </table>
-<!--/ko-->
 
 
 

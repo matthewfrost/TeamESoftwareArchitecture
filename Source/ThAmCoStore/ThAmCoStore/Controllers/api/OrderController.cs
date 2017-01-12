@@ -34,6 +34,27 @@ namespace ThAmCoStore.Controllers.api
             return "value";
         }
 
+        // PUT: api/Order
+        //public bool Put([FromBody]Order order)
+        //{
+        //    bool result = false;
+        //   //return source.submitOrder(order);
+        //    switch (order.supplier.ToLower())
+        //    {
+        //        case "undercutters":
+        //            result = Undercutters.submitOrder(order);
+        //            break;
+        //        case "dodgydealers":
+        //            result = DodgyDealers.submitOrder(order);
+        //            break;
+        //        case "bazzasbazaar":
+        //            result = BazzasBazaar.submitOrder(order);
+        //            break;
+        //    }
+
+        //    return result;
+        //}
+
         public bool Put([FromBody] List<Order> orders)
         {
             bool result = false;

@@ -56,7 +56,7 @@
     <Compile Include="testWrapping.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1\cache.csproj">
+    <ProjectReference Include="..\Cache\cache.csproj">
       <Project>{3470474b-8346-4fa1-b6ab-6cd8b98e05d8}</Project>
       <Name>cache</Name>
     </ProjectReference>

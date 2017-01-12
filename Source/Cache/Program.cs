@@ -20,6 +20,7 @@ namespace cache
     class Program
     {
         static void Main(string[] args)
+
         {
             //Undercutters products
             ExternalServiceProxy.ServiceProxy proxy = new ExternalServiceProxy.ServiceProxy();
@@ -29,6 +30,14 @@ namespace cache
 
             productsEntities2 db = new productsEntities2();
 
+            //clear table products
+            db.Database.ExecuteSqlCommand("TRUNCATE TABLE products");
+
+            //clear table wrappings
+            db.Database.ExecuteSqlCommand("TRUNCATE TABLE wrappings");
+
+
+            //this will add the products
             try
             {
                 foreach (ExternalServiceProxy.DTO.ProductDTO p in products)
@@ -49,27 +58,27 @@ namespace cache
             }
 
             //bazzas
-           // BazzasBazaarExternalServiceProxyWCF.ServiceProxy proxy2 = new BazzasBazaarExternalServiceProxyWCF.ServiceProxy();
+            // BazzasBazaarExternalServiceProxyWCF.ServiceProxy proxy2 = new BazzasBazaarExternalServiceProxyWCF.ServiceProxy();
             //IEnumerable<BazzasBazaarExternalServiceProxyWCF.DTO.ProductDTO> products2 = proxy2.
 
             //try
             //{
-              //  foreach (BazzasBazaarExternalServiceProxyWCF.DTO.ProductDTO p in products2)
-                //{
-                  //  var test = new cache.products {  };
+            //  foreach (BazzasBazaarExternalServiceProxyWCF.DTO.ProductDTO p in products2)
+            //{
+            //  var test = new cache.products {  };
 
-                    //db.products.Add(test);
-                    //db.SaveChanges();
-                //}
+            //db.products.Add(test);
+            //db.SaveChanges();
+            //}
 
             //}
 
-//            catch (Exception e)
-  //          {
+            //            catch (Exception e)
+            //          {
 
-    //            Console.WriteLine(e.ToString());
+            //            Console.WriteLine(e.ToString());
 
-      //      }
+            //      }
 
 
             //DodgeyDealers
