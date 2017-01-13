@@ -11,6 +11,7 @@
             self.BoxOrder = new Thamco.Model.BoxOrder();
             self.WrappingCost = ko.observable(0);
             self.SelectedWrapping = ko.observable(new Thamco.Model.Wrapping());
+            self.Error = ko.observable(false)
 
             self.TotalCost = ko.pureComputed(function () {
                 if (typeof self.SelectedWrapping() != 'undefined') {
@@ -97,10 +98,15 @@
                 self.Items(cartOrder);
             }
 
-            self.getWrappings = function (callback) {
+            self.getWrappings = function (callback, error) {
                 Thamco.Controller.Wrapping.Get({
-                    success: callback
-                })
+                    success: callback,
+                    fail: error
+                });
+            }
+
+            self.getWrappingsError = function () {
+                self.Error(true);
             }
 
             self.getWrappingsSuccess = function (data, status, jqxhr) {

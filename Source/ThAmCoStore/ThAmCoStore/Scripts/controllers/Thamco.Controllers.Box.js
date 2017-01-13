@@ -8,6 +8,7 @@
                     url: Thamco.Controller.Box.url,
                     type: 'GET',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json'
                 });
             },
@@ -17,6 +18,7 @@
                     url: Thamco.Controller.Box.url + '/' + options.ID,
                     type: 'GET',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json'
                 });
             },

@@ -8,6 +8,8 @@
             self.SelectedBox = ko.observable(null);
             self.Products = ko.observableArray([]);
             self.LoggedIn = ko.observable(null);
+            self.Error = ko.observable(false);
+            self.ItemError = ko.observable(false);
 
             self.EditMode = ko.observable(false);
             self.Init = function () {
@@ -20,23 +22,33 @@
                     items[item[0]] = item[1];
                 }
 
-                self.GetBoxDetails(items.ID, self.getBoxDetailsSuccess);
+                self.GetBoxDetails(items.ID, self.getBoxDetailsSuccess, self.GetBoxDetailsFail);
                 self.getItemsForBox(items.ID, self.getItemsForBoxSuccess);
             },
 
-            self.GetBoxDetails = function (boxID, callback) {
+            self.GetBoxDetails = function (boxID, callback, errorCallback) {
                 Thamco.Controller.Box.GetByID({
                     success: callback,
+                    fail: errorCallback,
                     ID: boxID
                 });
             },
 
-            self.getItemsForBox = function (boxID, callback) {
+            self.GetBoxDetailsFail = function(){
+                self.Error(true);
+            }
+
+            self.getItemsForBox = function (boxID, callback, error) {
                 Thamco.Controller.Item.GetForBox({
                     success: callback,
+                    fail: error,
                     ID: boxID
                 });
             },
+
+            self.getItemsForBoxFail = function () {
+                self.ItemError(true)
+            }
 
             self.getBoxDetailsSuccess = function (data, status, jqxhr) {
                 var SelectionBox = new Thamco.Model.SelectionBox();

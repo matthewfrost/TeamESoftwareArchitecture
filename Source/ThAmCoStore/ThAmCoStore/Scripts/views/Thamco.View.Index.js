@@ -5,7 +5,7 @@ var Thamco = $.extend(true, {}, Thamco, {
             Init: function () {
                 ViewModel = new Thamco.ViewModel.Index();
                 ViewModel.getLoggedInUser();
-                ViewModel.GetBoxes(ViewModel.GetBoxSuccess);
+                ViewModel.GetBoxes(ViewModel.GetBoxSuccess, ViewModel.GetBoxFail);
             }
         }
     }

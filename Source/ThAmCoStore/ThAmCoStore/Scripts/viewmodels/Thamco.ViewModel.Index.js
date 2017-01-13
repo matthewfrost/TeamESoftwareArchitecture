@@ -5,6 +5,7 @@
 
             self.Boxes = ko.observableArray([]);
 
+            self.Error = ko.observable(false);
             self.filter = ko.observable('');
             self.minPrice = ko.observable("");
             self.maxPrice = ko.observable("");
@@ -66,10 +67,15 @@
                 return self.searchedBoxes().filter(function (item) { return item.Price() <= max && item.Price() >= min });
             });
 
-            self.GetBoxes = function (callback) {
+            self.GetBoxes = function (callback, error) {
                 Thamco.Controller.Box.Get({
-                    success: callback
+                    success: callback,
+                    fail: error
                 });
+            }
+
+            self.GetBoxFail = function () {
+                self.Error(true);
             }
 
             self.GetBoxSuccess = function (data, status, jqxhr) {

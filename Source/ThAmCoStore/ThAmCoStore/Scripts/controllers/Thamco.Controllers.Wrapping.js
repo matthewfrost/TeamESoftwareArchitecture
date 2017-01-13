@@ -8,6 +8,7 @@
                     url: Thamco.Controller.Wrapping.url,
                     type: 'GET',
                     success: options.success,
+                    fail: options.fail,
                     contentType: 'application/json'
                 });
             },

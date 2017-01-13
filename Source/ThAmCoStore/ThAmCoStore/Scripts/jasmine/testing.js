@@ -25,6 +25,7 @@ $(function () {
             ID: 5
         });
     });
+
     describe('Index tests', function () {
 
         beforeAll(function (done) {
@@ -89,6 +90,41 @@ $(function () {
             expect(IndexViewModel.filteredBoxes().length).toEqual(2);
             done();
         })
+    });
+
+    describe('Getting box 500 error', function () {
+        var error = {
+            status: 500
+        }
+        var request;
+        beforeEach(function (done) {
+            jasmine.Ajax.install();
+
+
+            IndexViewModel.GetBoxes(function (data, status, jqxhr) {
+                IndexViewModel.getboxsuccess();
+                done();
+            }, function () {
+                IndexViewModel.getboxfail();
+                done();
+            });
+            request = jasmine.Ajax.requests.mostRecent();
+            request.respondWith(error);
+            done();
+
+        });
+
+        afterEach(function () {
+            jasmine.Ajax.uninstall();
+        });
+
+        it("should set ViewModel Error to true", function (done) {
+            if (request.status == 500) {
+                IndexViewModel.GetBoxFail();
+            }
+            expect(IndexViewModel.Error()).toBeTruthy();
+            done();
+        });
     });
 
     describe("Create Box page tests", function () {
@@ -195,17 +231,50 @@ $(function () {
         });
     });
 
+    describe('Getting items for box 500 error', function () {
+        var error = {
+            status: 500
+        }
+        var request;
+        beforeEach(function (done) {
+            jasmine.Ajax.install();
+
+
+            DetailsViewModel.getItemsForBox(function (data, status, jqxhr) {
+                DetailsViewModel.getItemsForBoxSuccess();
+                done();
+            }, function () {
+                IndexViewModel.getItemsForBoxFail();
+                done();
+            });
+
+            request = jasmine.Ajax.requests.mostRecent();
+            request.respondWith(error);
+            done();
+
+        });
+
+        afterEach(function () {
+            jasmine.Ajax.uninstall();
+        });
+
+        it("should set ViewModel Error to true", function (done) {
+            debugger;
+            if (request.status == 500) {
+                DetailsViewModel.getItemsForBoxFail();
+            }
+            expect(DetailsViewModel.ItemError()).toBeTruthy();
+            done();
+        });
+    });
+
     describe("Box detail tests", function () {
         beforeAll(function (done) {
             
             Thamco.Controller.Box.GetByID({
                 ID: 1,
                 success: function (data, status, jqxhr) {
-                    DetailsViewModel.getBoxDetailsSuccess(data, status, jqxhr);
-                    //DetailsViewModel.getItemsForBox(1, function (data, status, jqxhr) {
-                    //    DetailsViewModel.getItemsForBoxSuccess(data, status, jqxhr);
-                    //    done();
-                    //});   
+                    DetailsViewModel.getBoxDetailsSuccess(data, status, jqxhr);  
                     done();
                 }
             })
@@ -254,6 +323,43 @@ $(function () {
         });
     });
 
+    describe('Get box by ID 500 error', function () {
+        var error = {
+            status: 500
+        }
+        var request;
+        beforeEach(function (done) {
+            jasmine.Ajax.install();
+
+
+            DetailsViewModel.GetBoxDetails(function (data, status, jqxhr) {
+                DetailsViewModel.GetBoxDetailsSuccess();
+                done();
+            }, function () {
+                IndexViewModel.GetBoxDetailsFail();
+                done();
+            });
+
+            request = jasmine.Ajax.requests.mostRecent();
+            request.respondWith(error);
+            done();
+
+        });
+
+        afterEach(function () {
+            jasmine.Ajax.uninstall();
+        });
+
+        it("should set ViewModel Error to true", function (done) {
+            debugger;
+            if (request.status == 500) {
+                DetailsViewModel.GetBoxDetailsFail();
+            }
+            expect(DetailsViewModel.Error()).toBeTruthy();
+            done();
+        });
+    });
+
     describe("Editing of a Boxes prices", function () {
         beforeAll(function (done) {
             DetailsViewModel.SelectedBox().Price(2.50);
@@ -272,26 +378,6 @@ $(function () {
         });
     });
 
-    //describe("Editing a box", function () {
-    //    var result;
-    //    beforeAll(function (done) {
-    //        var Box = DetailsViewModel.SelectedBox();
-    //        Box.Price('5.99');
-    //        Thamco.Controller.Box.EditBox({
-    //            ID: 1,
-    //            data: ko.mapping.toJS(Box),
-    //            success: function (data, status, jqxhr) {
-    //                result = data;
-    //                done();
-    //            }
-    //        })
-    //    });
-
-    //    it("should allow the successful edit of a boxes price", function (done) {
-    //        expect(result).toEqual(200);
-    //        done();
-    //    });
-    //});
 
     describe("Get selected box", function () {
         beforeAll(function (done) {
@@ -380,13 +466,6 @@ $(function () {
             expect(CartViewModel.Purchase(null, null, true)).toBeTruthy();
             done();
         });
-
-        //it("should allow the removal of a box from the cart", function (done) {
-        //    CartViewModel.removeItem();
-
-        //    expect(CartViewModel.Items()).toBeNull();
-        //    done();
-        //});
     });
 
     describe("Checkout page tests", function () {
@@ -493,6 +572,43 @@ $(function () {
                 expect(OrderViewModel.orderSuccess()).toBeTruthy();
                 done();
             });
+        });
+    });
+
+    describe('Get wrappings 500 error', function () {
+        var error = {
+            status: 500
+        }
+        var request;
+        beforeEach(function (done) {
+            jasmine.Ajax.install();
+
+
+            CartViewModel.getWrappings(function (data, status, jqxhr) {
+                CartViewModel.getWrappingsSuccess();
+                done();
+            }, function () {
+                CartViewModel.getWrappingsError();
+                done();
+            });
+
+            request = jasmine.Ajax.requests.mostRecent();
+            request.respondWith(error);
+            done();
+
+        });
+
+        afterEach(function () {
+            jasmine.Ajax.uninstall();
+        });
+
+        it("should set ViewModel Error to true", function (done) {
+            debugger;
+            if (request.status == 500) {
+                CartViewModel.getWrappingsError();
+            }
+            expect(CartViewModel.Error()).toBeTruthy();
+            done();
         });
     });
 });

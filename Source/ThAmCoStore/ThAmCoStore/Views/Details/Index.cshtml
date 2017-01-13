@@ -1,6 +1,12 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!--ko if: $root.Error()-->
+<div class="row">
+    <h2 class="col-xs-4">Oops, somethig went wrong...</h2>
+</div>
+<!--/ko-->
+<!--ko if: $root.Error() == false-->
 <!--ko if: $root.SelectedBox().Available-->
 @if (System.Web.HttpContext.Current.User.Identity.Name.Length > 0)
 {
@@ -57,6 +63,12 @@ else
         <input data-bind="value: $root.SelectedBox().Price(), textInput: $root.SelectedBox().Price, enable: $root.EditMode()" />
     </div>
 </div>
+<!--ko if: $root.ItemError()-->
+<div class="row">
+    <h3 class="col-xs-4">Oops, something went wrong</h3>
+</div>
+<!--/ko-->
+<!--ko if: $root.ItemError() == false-->
 <table>
     <tr>
         <th>Item</th>
@@ -69,4 +81,6 @@ else
     </tr>
     <!--/ko-->
 </table>
+<!--/ko-->
+<!--/ko-->
 
