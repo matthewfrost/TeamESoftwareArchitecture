@@ -19,3 +19,10 @@ C:\Users\Matthew\Documents\ThamcoApp\ThAmCoStore\DTOs\bin\Debug\Newtonsoft.Json.
 C:\Users\Matthew\Documents\ThamcoApp\ThAmCoStore\DTOs\obj\Debug\DTOs.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\Documents\ThamcoApp\ThAmCoStore\DTOs\obj\Debug\DTOs.dll
 C:\Users\Matthew\Documents\ThamcoApp\ThAmCoStore\DTOs\obj\Debug\DTOs.pdb
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\bin\Debug\DTOs.dll
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\bin\Debug\DTOs.pdb
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\obj\Debug\DTOs.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\obj\Debug\DTOs.dll
+C:\Users\matth\Desktop\TeamESoftwareArchitecture\Source\ThAmCoStore\DTOs\obj\Debug\DTOs.pdb

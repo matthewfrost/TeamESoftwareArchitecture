@@ -26,8 +26,8 @@
                     Item.EAN(current.EAN);
                     Item.Supplier(current.Supplier);
                     Item.CategoryID(current.CategoryID);
-                    Item.Category(current.Category);
-                    Item.Brand(current.Brand);
+                    Item.Category(current.CategoryName);
+                    Item.Brand(current.BrandName);
                     Item.BrandID(current.BrandID);
                     Item.Name(current.Name);
                     Item.Description(current.Description);
@@ -73,7 +73,7 @@
                 Debug = Debug || false
                 if (data == 200) {
                     if (!Debug) {
-                        window.open(document.domain + "/Home/Index", "_self");
+                        window.open("/Home", "_self");
                     }
                     Result = true;
                 }

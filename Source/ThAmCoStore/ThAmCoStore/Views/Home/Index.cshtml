@@ -20,6 +20,9 @@
 </div>
 <!--ko if: $root.LoggedIn()-->
 <div class="row">
+    <button data-bind="click: $root.createNew">Create new box</button>
+</div>
+<div class="row">
     <label class="col-xs-2" for="showVisible">Show Hidden Boxes</label>
     <div class="col-xs-1">
         <input data-bind="checked: $root.showHidden" id="showVisible" type="checkbox" />
