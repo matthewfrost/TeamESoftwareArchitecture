@@ -292,7 +292,7 @@ $(function () {
             }
             var cookie = Cookies.get(user);
             if (typeof cookie !== 'undefined') {
-                Cookies.remove(user) //clearing any previous cookies
+                Cookies.remove(user) 
             }
             DetailsViewModel.AddToCart();
             cookie = Cookies.get(user);
@@ -307,7 +307,7 @@ $(function () {
             }
             var cookie = Cookies.get(user + "items");
             if (typeof cookie !== 'undefined') {
-                Cookies.remove(user) //clearing any previous cookies
+                Cookies.remove(user) 
             }
             DetailsViewModel.AddToCart();
             cookie = Cookies.get(user + "items");
