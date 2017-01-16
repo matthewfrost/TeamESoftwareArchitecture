@@ -1,0 +1,10 @@
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\DodgeyDealersExternalServiceProxyTests.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\DodgeyDealersExternalServiceProxyTests.pdb
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\DodgeyDealersExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\DodgeyDealersExternalServiceProxy.pdb
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\obj\Release\DodgeyDealersExternalServiceProxyTests.csprojResolveAssemblyReference.cache
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\obj\Release\DodgeyDealersExternalServiceProxyTests.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxyTests\obj\Release\DodgeyDealersExternalServiceProxyTests.pdb

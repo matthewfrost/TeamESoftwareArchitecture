@@ -1,0 +1,10 @@
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\KhansKwikimartExternalServiceProxy.dll.config
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\KhansKwikimartExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\KhansKwikimartExternalServiceProxy.pdb
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\Newtonsoft.Json.dll
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\Newtonsoft.Json.xml
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\obj\Release\KhansKwikimartExternalServiceProxy.csprojResolveAssemblyReference.cache
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\obj\Release\KhansKwikimartExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\KhansKwikimartExternalServiceProxy\obj\Release\KhansKwikimartExternalServiceProxy.pdb

@@ -1,0 +1,11 @@
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\BazzasBazaarExternalServiceProxyWCFTests.dll.config
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\BazzasBazaarExternalServiceProxyWCFTests.dll
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\BazzasBazaarExternalServiceProxyWCFTests.pdb
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\obj\Release\BazzasBazaarExternalServiceProxyWCFTests.csprojResolveAssemblyReference.cache
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\obj\Release\BazzasBazaarExternalServiceProxyWCFTests.dll
+C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCFTests\obj\Release\BazzasBazaarExternalServiceProxyWCFTests.pdb

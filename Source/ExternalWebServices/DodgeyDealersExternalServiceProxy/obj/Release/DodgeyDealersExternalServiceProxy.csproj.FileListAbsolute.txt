@@ -1,0 +1,14 @@
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\DodgeyDealersExternalServiceProxy.dll.config
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\DodgeyDealersExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\DodgeyDealersExternalServiceProxy.pdb
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\EntityFramework.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\Newtonsoft.Json.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\EntityFramework.xml
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\Newtonsoft.Json.xml
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\obj\Release\DodgeyDealersExternalServiceProxy.csprojResolveAssemblyReference.cache
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\obj\Release\DodgeyDealersExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\DodgeyDealersExternalServiceProxy\obj\Release\DodgeyDealersExternalServiceProxy.pdb

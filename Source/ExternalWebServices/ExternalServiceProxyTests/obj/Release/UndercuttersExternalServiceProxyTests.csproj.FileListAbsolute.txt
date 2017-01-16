@@ -1,0 +1,15 @@
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\ExternalServiceProxyTests.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\ExternalServiceProxyTests.pdb
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\ExternalServiceProxy.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\FakeItEasy.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\ExternalServiceProxy.pdb
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\FakeItEasy.pdb
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\FakeItEasy.xml
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\obj\Release\UndercuttersExternalServiceProxyTests.csprojResolveAssemblyReference.cache
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\obj\Release\ExternalServiceProxyTests.dll
+C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxyTests\obj\Release\ExternalServiceProxyTests.pdb
