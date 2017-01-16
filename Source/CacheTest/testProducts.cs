@@ -21,9 +21,9 @@ namespace CacheTest
 
         public int brandid { get; set; }
 
-        public int minprice { get; set; }
+        public decimal? minprice { get; set; }
 
-        public int maxprice { get; set; }
+        public decimal? maxprice { get; set; }
 
 
     }

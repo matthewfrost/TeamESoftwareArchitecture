@@ -37,11 +37,11 @@
   <ItemGroup>
     <Reference Include="BazzasBazaarExternalServiceProxyWCF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ICA4\BazzasBazaarExternalServiceProxyWCF\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll</HintPath>
+      <HintPath>..\External Services\BazzasBazaarExternalServiceProxyWCF\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll</HintPath>
     </Reference>
     <Reference Include="DodgeyDealersExternalServiceProxy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ICA4\DodgeyDealersExternalServiceProxy\bin\Debug\DodgeyDealersExternalServiceProxy.dll</HintPath>
+      <HintPath>..\External Services\DodgeyDealersExternalServiceProxy\bin\Debug\DodgeyDealersExternalServiceProxy.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -49,15 +49,17 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="ExternalServiceProxy">
-      <HintPath>..\..\ICA4\ExternalServiceProxy\bin\Debug\ExternalServiceProxy.dll</HintPath>
+    <Reference Include="ExternalServiceProxy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External Services\ExternalServiceProxy\bin\Debug\ExternalServiceProxy.dll</HintPath>
     </Reference>
-    <Reference Include="ICA6">
-      <HintPath>lib\ICA6.dll</HintPath>
+    <Reference Include="ICA6, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External Services\ICA6\bin\ICA6.dll</HintPath>
     </Reference>
     <Reference Include="KhansKwikimartExternalServiceProxy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ICA4\KhansKwikimartExternalServiceProxy\bin\Debug\KhansKwikimartExternalServiceProxy.dll</HintPath>
+      <HintPath>..\External Services\KhansKwikimartExternalServiceProxy\bin\Debug\KhansKwikimartExternalServiceProxy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -92,21 +94,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Model2.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model2.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model2.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model2.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model2.edmx</DependentUpon>
     </Compile>
     <Compile Include="Model3.Context.cs">
       <AutoGen>True</AutoGen>
@@ -151,23 +138,6 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </None>
-    <EntityDeploy Include="Model2.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model2.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Model2.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model2.edmx</DependentUpon>
-      <LastGenOutput>Model2.Context.cs</LastGenOutput>
-    </None>
-    <None Include="Model2.edmx.diagram">
-      <DependentUpon>Model2.edmx</DependentUpon>
-    </None>
-    <None Include="Model2.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model2.edmx</DependentUpon>
-      <LastGenOutput>Model2.cs</LastGenOutput>
-    </None>
     <EntityDeploy Include="Model3.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model3.Designer.cs</LastGenOutput>
@@ -189,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

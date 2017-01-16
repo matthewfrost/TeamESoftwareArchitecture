@@ -2,22 +2,30 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
-using System.Diagnostics.Stopwatch;
+using System.Configuration;
+using System.Data;
+using System.Data.Entity;
 
 namespace CacheTest
 {
     [TestClass]
     public class cacheTests
     {
-       
+
+        //This method makes sure that the correct connection is made by compering the expected with the actual string
+        [TestMethod]
+            public void GetConnStringFromAppConfig()
+        {
+                string expectedString = ConfigurationManager.ConnectionStrings["productsEntities2"].ConnectionString;
+                string actualString = ConfigurationManager.ConnectionStrings["productsEntities2"].ConnectionString;
+                Assert.AreEqual(expectedString, actualString);
+            }
 
         [TestMethod]
         public void productsTest()
         {
-            //A way it should work
-
             cache.productsEntities2 db = new cache.productsEntities2();
-            db.products.Select();
+            //db.products.Select();
 
             var test1 = db.products;
 
@@ -29,28 +37,26 @@ namespace CacheTest
 
                 productdescription = o.productdescription,
 
-                categoryid = o.categoryid,
+                categoryid = o.categoryid ?? 0,
 
                 categoryname = o.categoryname,
 
-                brandid = o.brandid,
+                brandid = o.brandid ?? 0,
 
                 minprice = o.minprice,
 
                 maxprice = o.maxprice,
             });
 
-            Assert.Equals(testing.Count(), 17);
+            Assert.AreEqual(testing.Count(), 17);
 
         }
 
         [TestMethod]
         public void giftwrappingTest()
         {
-            //A way it should work
-
             cache.productsEntities2 db = new cache.productsEntities2();
-            db.wrappings.Select();
+            //db.wrappings.Select();
 
             var test1 = db.wrappings;
 
@@ -58,11 +64,11 @@ namespace CacheTest
             {
                 id = o.id,
 
-                typeid = o.typeid,
+                typeid = o.typeid ?? 0,
 
                 typename = o.typename,
 
-                rangeid = o.rangeid,
+                rangeid = o.rangeid ?? 0,
 
                 rangename = o.rangename,
 
@@ -71,7 +77,7 @@ namespace CacheTest
                 size = o.size,
             });
 
-            Assert.Equals(testing.Count(), 1);
+            Assert.AreEqual(testing.Count(), 1);
 
 
         }

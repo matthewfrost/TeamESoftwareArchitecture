@@ -12,8 +12,8 @@ namespace CacheTest
         public int typeid {get; set;}
         public string typename {get; set;}
         public int rangeid {get; set;}
-        public int rangename {get; set;}
-        public Decimal price {get; set;}
-        public Decimal size { get; set; }
+        public string rangename {get; set;}
+        public Decimal? price {get; set;}
+        public Decimal? size { get; set; }
     }
 }
