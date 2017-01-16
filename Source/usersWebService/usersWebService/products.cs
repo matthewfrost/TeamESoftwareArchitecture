@@ -14,9 +14,13 @@ namespace usersWebService
     
     public partial class products
     {
+        
+
         public int productid { get; set; }
         public string productname { get; set; }
         public string productdescription { get; set; }
+
+        public int boxid { get; set; }
         public Nullable<bool> Active { get; set; }
     }
 }

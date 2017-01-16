@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BoxdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Boxdb.dbo.Box' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Box">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Price" />
+      <PropertyRef Name="Description" />
+      <PropertyRef Name="Contents" />
+      <PropertyRef Name="Visible" />
+      <PropertyRef Name="Available" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Description" Type="varchar(max)" Nullable="false" />
+    <Property Name="Contents" Type="varchar(max)" Nullable="false" />
+    <Property Name="Visible" Type="bit" Nullable="false" />
+    <Property Name="Available" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BoxdbModelStoreContainer">
+    <EntitySet Name="Box" EntityType="Self.Box" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Box].[ID] AS [ID], 
+    [Box].[Name] AS [Name], 
+    [Box].[Price] AS [Price], 
+    [Box].[Description] AS [Description], 
+    [Box].[Contents] AS [Contents], 
+    [Box].[Visible] AS [Visible], 
+    [Box].[Available] AS [Available]
+    FROM [dbo].[Box] AS [Box]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,99 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using usersWebService.Models;
-using Repositories1;
-
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
 
 namespace usersWebService.Controllers
 {
-    public class UserController : Controller
+    public class UserController : ApiController
     {
-
-       //private AdminEntities udb = new AdminEntities();
-        private IUserRepository userrepository;
+        UserRepository userrepository;
 
         public UserController()
         {
-            this.userrepository = new UserRepository(new AdminEntities());
+            this.userrepository = new UserRepository(new UserdbEntities());
         }
-
-        // GET: User
-        public ActionResult Index()
+        // GET: api/User
+        public List<DTOs.User>Get()
         {
-            var Users = userrepository.Admin;
-            return View(Users);
+            return userrepository.GetAll();
         }
 
-        //GET: User/Create
-        public ActionResult Create()
+        // GET: api/User/5
+        public DTOs.User GetById(int id)
         {
-            var records = userrepository.Admin;
-            ViewBag.user = new SelectList(records, "ID", "User");
-            return View();
+            return userrepository.GetById(id);
         }
 
-        // POST: User/Create
-        [HttpPost]
-        public ActionResult Create(usersWebService.Admin un)
+        // POST: api/User
+        public void Post([FromBody]DTOs.User user)
         {
-            try
-            {
-                
-                    userrepository.Admin.Add(un);
-                    userrepository.SaveChanges();
-                    return RedirectToAction("Index");
-                
-             //   return RedirectToAction("Index");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-                return View(un);
-            }
+            userrepository.CreateNewUser(user);
         }
 
-        //GET: User/Edit
-        public ActionResult Edit(int id)
+        // PUT: api/User/5
+        public void Put(int id, [FromBody]DTOs.User user)
         {
-            Admin users = userrepository.Admin.Find(id);
-            if (users == null)
-            {
-                return HttpNotFound();
-            }
-            return View(users);
+            userrepository.UpdateUser(user, id);
         }
 
-        // POST: User/Edit
-        [HttpPost]
-        public ActionResult Edit(
-            [Bind(
-                Include =
-                    "ID, User"
-                )] Admin users)
+        //GET: api/User/ByEmail/5
+        public DTOs.User GetByEmail(String email)
         {
-            try
-            {
-
-                if (ModelState.IsValid)
-                {
-                    userrepository.Entry(users).State = EntityState.Modified;
-                    userrepository.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                ViewBag.user = new SelectList(userrepository.Admin, "ID", "User",
-                    users.ID);
-                return View(users);
-            }
+            return userrepository.GetByEmail(email);
         }
-          
     }
-
 }

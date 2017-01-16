@@ -14,6 +14,7 @@ namespace usersWebService
     
     public partial class Admin
     {
+        public string Email { get; set; }
         public int ID { get; set; }
         public string User { get; set; }
     }

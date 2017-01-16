@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProductdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Productdb.dbo.Product' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Ean" />
+      <PropertyRef Name="CategoryId" />
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="BrandId" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Description" />
+      <PropertyRef Name="Price" />
+      <PropertyRef Name="InStock" />
+      <PropertyRef Name="Supplier" />
+      <PropertyRef Name="ExpectedRestock" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Ean" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="CategoryName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="BrandId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="varchar(max)" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="InStock" Type="bit" Nullable="false" />
+    <Property Name="Supplier" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ExpectedRestock" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ProductdbModelStoreContainer">
+    <EntitySet Name="Product" EntityType="Self.Product" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Product].[ID] AS [ID], 
+    [Product].[Ean] AS [Ean], 
+    [Product].[CategoryId] AS [CategoryId], 
+    [Product].[CategoryName] AS [CategoryName], 
+    [Product].[BrandId] AS [BrandId], 
+    [Product].[Name] AS [Name], 
+    [Product].[Description] AS [Description], 
+    [Product].[Price] AS [Price], 
+    [Product].[InStock] AS [InStock], 
+    [Product].[Supplier] AS [Supplier], 
+    [Product].[ExpectedRestock] AS [ExpectedRestock]
+    FROM [dbo].[Product] AS [Product]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

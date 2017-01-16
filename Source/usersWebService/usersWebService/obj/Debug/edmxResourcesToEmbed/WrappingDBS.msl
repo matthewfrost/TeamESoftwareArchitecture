@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WrappingdbModelStoreContainer" CdmEntityContainer="WrappingdbEntities">
+    <EntitySetMapping Name="Wrapping">
+      <EntityTypeMapping TypeName="WrappingdbModel.Wrapping">
+        <MappingFragment StoreEntitySet="Wrapping">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="RangeID" ColumnName="RangeID" />
+          <ScalarProperty Name="RangeName" ColumnName="RangeName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

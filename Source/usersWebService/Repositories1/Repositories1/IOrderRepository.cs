@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DTOs;
 
 
 namespace Repositories1
@@ -12,7 +13,7 @@ namespace Repositories1
         List<Order> GetAll();
         Order GetById(int orderId);
         void CreateOrder(Order order);
-        void UpdateOrder(Order order);
+        void UpdateOrder(Order order, int Id);
         void Save();
 
     }

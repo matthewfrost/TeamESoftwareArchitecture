@@ -14,7 +14,15 @@ namespace usersWebService
     
     public partial class Order
     {
-        public int orderid { get; set; }
-        public string ordername { get; set; }
+        public int Id { get; set; }
+        public string AccountName { get; set; }
+        public string CarndNumber { get; set; }
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+        public System.DateTime When { get; set; }
+        public string ProductName { get; set; }
+        public string ProductEan { get; set; }
+        public decimal TotalPrice { get; set; }
+        public string Supplier { get; set; }
     }
 }

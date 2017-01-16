@@ -1,0 +1,22 @@
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.dll
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.pdb
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\bin\Debug\DTOs.dll
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.csprojResolveAssemblyReference.cache
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.dll
+U:\Year 3\Software Architecture\Source\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.pdb
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.dll
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.pdb
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\bin\Debug\DTOs.dll
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.csprojResolveAssemblyReference.cache
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.dll
+C:\Users\p4063103\Desktop\Source1\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.pdb
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.dll
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Repositories1.pdb
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\DTOs.dll
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.csprojResolveAssemblyReference.cache
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.dll
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\obj\Debug\Repositories1.pdb
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Castle.Core.dll
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Moq.dll
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Castle.Core.xml
+U:\Year 3\Software Architecture\Source2\usersWebService\Repositories1\Repositories1\bin\Debug\Moq.xml

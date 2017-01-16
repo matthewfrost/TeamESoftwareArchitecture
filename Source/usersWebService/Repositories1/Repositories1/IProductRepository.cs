@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DTOs;
+
 
 namespace Repositories1
 {
@@ -11,8 +13,8 @@ namespace Repositories1
         List<Product> GetAll();
         Product GetById(int productId);
         void CreateProduct(Product product);
-        void UpdateProduct(int ID, Product product);
+        void UpdateProduct(Product product, int Id);
         void Save();
-        List<Product> getItemsForBox(int BoxID);
+        Product getItemsForBox(int BoxID);
     }
 }
