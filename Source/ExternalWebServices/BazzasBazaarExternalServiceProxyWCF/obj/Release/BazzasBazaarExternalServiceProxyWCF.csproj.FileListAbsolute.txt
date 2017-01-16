@@ -8,3 +8,13 @@ C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\bin\Release\Syst
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.csprojResolveAssemblyReference.cache
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.dll
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\BazzasBazaarExternalServiceProxyWCF.dll.config
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\Newtonsoft.Json.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\Newtonsoft.Json.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.csprojResolveAssemblyReference.cache
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Release\BazzasBazaarExternalServiceProxyWCF.pdb

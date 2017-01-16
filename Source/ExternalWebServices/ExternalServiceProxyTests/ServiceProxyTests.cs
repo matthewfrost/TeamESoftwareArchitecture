@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using ExternalServiceProxy.Responses;
 using FakeItEasy;
-using System.Net.Http.Formatting;
-
 namespace ExternalServiceProxy.Tests
 {
     [TestClass()]

@@ -29,12 +29,8 @@ C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxy\obj\Debug\ExternalServiceProxy.
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\ExternalServiceProxy.dll.config
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\ExternalServiceProxy.dll
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\ExternalServiceProxy.pdb
-C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\EntityFramework.dll
-C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\Newtonsoft.Json.dll
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\EntityFramework.xml
-C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\Newtonsoft.Json.xml
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\obj\Debug\UndercuttersExternalServiceProxy.csprojResolveAssemblyReference.cache

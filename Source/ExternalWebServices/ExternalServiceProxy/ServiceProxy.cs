@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using ExternalServiceProxy.Responses;
 
@@ -26,8 +24,7 @@ namespace ExternalServiceProxy
             try
             {
                 UndercuttersResponse<IEnumerable<DTO.BrandDTO>> serviceProxyResponse = new UndercuttersResponse<IEnumerable<DTO.BrandDTO>>();
-
-                //IEnumerable<DTO.BrandDTO> returnedData = await response.Content.ReadAsAsync<IEnumerable<DTO.BrandDTO>>();
+                
                 IEnumerable<DTO.BrandDTO> returnedData = await ServiceInteraction.GetAllBrandsFromServer();
 
                 if (returnedData.Count() != 0)

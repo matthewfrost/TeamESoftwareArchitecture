@@ -12,3 +12,13 @@ C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxy\bin\Release\System.Net.Http.For
 C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxy\obj\Release\UndercuttersExternalServiceProxy.csprojResolveAssemblyReference.cache
 C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxy\obj\Release\ExternalServiceProxy.dll
 C:\Users\DanBe\Desktop\ICA4\ExternalServiceProxy\obj\Release\ExternalServiceProxy.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\ExternalServiceProxy.dll.config
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\ExternalServiceProxy.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\ExternalServiceProxy.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\Newtonsoft.Json.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\Newtonsoft.Json.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\obj\Release\UndercuttersExternalServiceProxy.csprojResolveAssemblyReference.cache
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\obj\Release\ExternalServiceProxy.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\ExternalServiceProxy\obj\Release\ExternalServiceProxy.pdb

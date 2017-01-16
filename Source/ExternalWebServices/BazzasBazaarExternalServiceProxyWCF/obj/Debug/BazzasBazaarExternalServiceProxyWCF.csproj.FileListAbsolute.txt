@@ -17,3 +17,13 @@ C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\bin\Debug\System
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.csprojResolveAssemblyReference.cache
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.dll
 C:\Users\DanBe\Desktop\ICA4\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll.config
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\BazzasBazaarExternalServiceProxyWCF.pdb
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.csprojResolveAssemblyReference.cache
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.dll
+C:\Users\n3042486\Desktop\ExternalWebServices\BazzasBazaarExternalServiceProxyWCF\obj\Debug\BazzasBazaarExternalServiceProxyWCF.pdb
